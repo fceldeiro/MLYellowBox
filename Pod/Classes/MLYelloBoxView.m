@@ -7,6 +7,7 @@
 //
 
 #import "MLYelloBoxView.h"
+#import <MLNewBoxDependecy/MLNewBox.h>
 
 @implementation MLYelloBoxView
 
@@ -17,6 +18,8 @@
         // Initialization code
 
         
+        MLNewBox * newBox = [[MLNewBox alloc] initWithFrame:CGRectMake(frame.size.width/2, 0, frame.size.width/2, frame.size.height)];
+        
         NSString * bundlePath = [[NSBundle mainBundle] pathForResource:@"MLYellowBox" ofType:@"bundle"];
         NSBundle * yellowBoxBundle = [[NSBundle alloc] initWithPath:bundlePath];
         
@@ -24,6 +27,8 @@
         
         self = [[yellowBoxBundle loadNibNamed:@"MLYellowBoxView" owner:self options:nil]objectAtIndex:0];
         self.frame = frame;
+        [self addSubview:newBox];
+
 
         
     }

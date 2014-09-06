@@ -9,22 +9,21 @@
 
 Pod::Spec.new do |s|
   s.name             = "MLYellowBox"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MLYellowBox."
+  s.version          = "0.0.1"
+  s.summary          = "Draw a yellow box in 2 steps"
   s.description      = <<-DESC
-                       An optional longer description of MLYellowBox
+                      This is an amazing library created by me that allows you to draw a rect with a color and a label that you cannot edit with just creating the view, fucking a
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MLYellowBox"
+  s.homepage         = "https://github.com/fceldeiro/MLYellowBox"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Fabian Celdeiro" => "fabian.celdeiro@mercadolibre.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MLYellowBox.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/fceldeiro/MLYellowBox.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
@@ -34,5 +33,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'MLNewBoxDependecy'
 end
