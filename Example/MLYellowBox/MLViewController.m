@@ -7,6 +7,7 @@
 //
 
 #import "MLViewController.h"
+#import <MLYellowBox/MLYelloBoxView.h>
 
 @interface MLViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MLYelloBoxView * yellowView = [[MLYelloBoxView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    
+    [self.view addSubview:yellowView];
+    
 }
 
 - (void)didReceiveMemoryWarning
