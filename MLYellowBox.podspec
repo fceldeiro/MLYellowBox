@@ -10,6 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "MLYellowBox"
   s.version          = "0.1.0"
+  s.gitHubUser       = "fceldeiro"
   s.summary          = "A short description of MLYellowBox."
   s.description      = <<-DESC
                        An optional longer description of MLYellowBox
@@ -17,14 +18,13 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MLYellowBox"
+  s.homepage         = "https://github.com/fceldeiro/MLYellowBox"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Fabian Celdeiro" => "fabian.celdeiro@mercadolibre.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MLYellowBox.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/fceldeiro/MLYellowBox.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
