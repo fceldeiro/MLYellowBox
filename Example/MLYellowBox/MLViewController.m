@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    MLYelloBoxView * yellowView = [[MLYelloBoxView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    MLYelloBoxView * yellowView = [[MLYelloBoxView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
     
     [self.view addSubview:yellowView];
     

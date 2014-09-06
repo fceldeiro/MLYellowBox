@@ -17,7 +17,13 @@
         // Initialization code
 
         
-        self = [[[NSBundle mainBundle] loadNibNamed:@"MLYellowBoxView" owner:self options:nil]objectAtIndex:0];
+        NSString * bundlePath = [[NSBundle mainBundle] pathForResource:@"MLYellowBox" ofType:@"bundle"];
+        NSBundle * yellowBoxBundle = [[NSBundle alloc] initWithPath:bundlePath];
+        
+        
+        
+        self = [[yellowBoxBundle loadNibNamed:@"MLYellowBoxView" owner:self options:nil]objectAtIndex:0];
+        self.frame = frame;
 
         
     }
