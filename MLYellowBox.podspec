@@ -10,10 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "MLYellowBox"
   s.version          = "0.1.0"
-  s.gitHubUser       = "fceldeiro"
-  s.summary          = "A short description of MLYellowBox."
+  s.summary          = "Draw a yellow box in 2 steps"
   s.description      = <<-DESC
-                       An optional longer description of MLYellowBox
+                      This is an amazing library created by me that allows you to draw a rect with a color and a label that you cannot edit with just creating the view, fucking a
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
