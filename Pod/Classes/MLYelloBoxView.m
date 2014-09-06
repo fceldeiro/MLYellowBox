@@ -15,7 +15,11 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        self.backgroundColor = [UIColor redColor];
+
+        
+        self = [[[NSBundle mainBundle] loadNibNamed:@"MLYellowBoxView" owner:self options:nil]objectAtIndex:0];
+
+        
     }
     return self;
 }
