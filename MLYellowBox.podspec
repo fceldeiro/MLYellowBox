@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MLYellowBox"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "Draw a yellow box in 2 steps"
   s.description      = <<-DESC
                       This is an amazing library created by me that allows you to draw a rect with a color and a label that you cannot edit with just creating the view, fucking a
