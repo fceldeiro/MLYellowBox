@@ -1,6 +1,6 @@
 PODS:
   - MLNewBoxDependecy (0.0.1)
-  - MLYellowBox (0.0.1):
+  - MLYellowBox (0.0.2):
     - MLNewBoxDependecy
 
 DEPENDENCIES:
@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MLNewBoxDependecy: d49518225a0b5ffd159afe7eb014b721e818e138
-  MLYellowBox: c469483f298235f9f54e5c252b1273eea904bea7
+  MLYellowBox: f31d6efb308cb724b39b1b199ad526bdf5600fdf
 
 COCOAPODS: 0.33.1
